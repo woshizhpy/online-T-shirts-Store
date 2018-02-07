@@ -1,0 +1,83 @@
+h1{
+	text-align: center;
+	color: darkblue;
+}
+
+.co{
+	text-align: left;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.container {
+	width: 1000px;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.leftbox {
+	width: 270px;
+	float: left;	
+  }
+
+.leftbox img{
+	  width:270px; 
+} 
+
+.leftbox p{
+	text-align: center;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.midbox {
+	width: 430px;      
+	float: left;
+}
+
+.midbox img{
+	width:430px; 
+}
+
+.midbox p{
+	text-align: center;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.rightbox {
+	width: 300px;
+	float: right;
+}
+
+.rightbox img{
+	width:280px; 
+}
+
+.rightbox p{
+	text-align: center;
+	color: darkblue;
+	font-size: 20px;
+}
+
+.button {
+	position: relative;
+	margin-top: 20px;
+	left: 10%;
+	transform: translate(-50%, 0);
+	font-family: inherit;
+	color: white;
+	background: #FF3838;
+	outline: none;
+	border: none;
+	padding: 5px 15px;
+	font-size: 1.3em;
+	font-weight: 400;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+}
+
+  

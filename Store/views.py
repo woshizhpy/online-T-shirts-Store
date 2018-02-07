@@ -23,30 +23,22 @@ def home_page(request):
     return render(request, 'home.html', {})
 
 def addcom(request):
-	print("in addcomm")
 	if 'username' in request.POST:
-		print(request.POST)
 		comm=[str(request.POST['username']),str(request.POST['comments'])]
 		comments.append(comm);
-		print(comments)
 		context={}
 		context['comments']=comments
 		return render(request, 'showcomm.html', context)
-		# print(comments[-1].name);
-		# print(comments[-1].content);
 	
 	
 	return render(request, 'addcomm.html',{})
 
 def addP(request):
-	
 	return render(request, 'addcomm.html', {})
 
 def showcom(request):
-
 	context={}
 	context['comments']=comments
-
 	return render(request, 'showcomm.html', context)
 
 
